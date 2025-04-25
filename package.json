@@ -1,0 +1,38 @@
+{
+  "name": "lwe8-dts",
+  "version": "0.1.0",
+  "description": "Getting the DTS from a JavaScript file",
+  "scripts": {},
+  "bin": {
+    "dts": "./src/dts.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "require": "./src/index.js",
+      "import": "./src/index.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/lwe8-dts.git"
+  },
+  "keywords": [
+    "dts",
+    "JavaScript"
+  ],
+  "author": "Pho Thin Mg <phothinmg@disroot.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phothinmg/lwe8-dts/issues"
+  },
+  "homepage": "https://github.com/phothinmg/lwe8-dts#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
