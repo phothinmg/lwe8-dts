@@ -1,6 +1,6 @@
 {
   "name": "lwe8-dts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Getting the DTS from a JavaScript file",
   "scripts": {},
   "bin": {
