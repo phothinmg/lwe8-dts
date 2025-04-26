@@ -27,12 +27,12 @@
     "url": "https://github.com/phothinmg/lwe8-dts/issues"
   },
   "homepage": "https://github.com/phothinmg/lwe8-dts#readme",
-  "devDependencies": {
-    "@types/node": "^22.15.2",
-    "typescript": "^5.8.3"
-  },
   "publishConfig": {
     "access": "public",
     "provenance": true
+  },
+  "dependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
   }
 }

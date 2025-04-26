@@ -2,17 +2,23 @@
 
 ## content
 
+- [Overview](#overview)
+- [Install](#install)
+- [Use](#use)
+- [API](#api)
+- [License](#license)
+
 ## Overview
 
 Getting the DTS from a JavaScript file.
 
 ## Install
 
-```bash
+```shell
 npm i lwe8-dts
 ```
 
-```bash
+```shell
 pnpm i lwe8-dts
 ```
 
@@ -20,8 +26,8 @@ pnpm i lwe8-dts
 
 ### cli
 
-```bash
-npx dts -f bar/foo.js #path to js file
+```shell
+npx dts -f bar/foo.js
 ```
 
 ### Common Js
@@ -33,9 +39,24 @@ var { compile } = require("lwe8-dts");
 ### ESM
 
 ```js
-import  { compile } from "lwe8-dts"
+import { compile } from "lwe8-dts";
 ```
 
 ## API
 
+### Exports
 
+- This package exports:
+
+  - javascript function: `compile`
+
+- There is no default export.
+
+## License
+
+[MIT][file-license] © [Pho Thin Mg][ptm]
+
+<!-- Definitions -->
+
+[file-license]: LICENSE
+[ptm]: https://github.com/phothinmg
